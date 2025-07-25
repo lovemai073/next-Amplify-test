@@ -7,8 +7,7 @@ import "./../app/app.css";
 import { Amplify } from "aws-amplify";
 import outputs from "@/amplify_outputs.json";
 import "@aws-amplify/ui-react/styles.css";
-import Image from 'next/image';
-import testPic from '/test-pic01.jpeg';
+
 
 Amplify.configure(outputs);
 
@@ -51,11 +50,11 @@ export default function App() {
       </div>
       <div>
         <h1>PIC</h1>
-        <Image 
-          src={testPic}
-          alt="pic"
-          width={500} // 設置適當的寬度
-          height={300} // 設置適當的高度
+        <img 
+          src="/test-pic01.jpeg" 
+          alt="测试图片" 
+          width="500"
+          height="300"
         />
       </div>
 
