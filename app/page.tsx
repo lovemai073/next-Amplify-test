@@ -49,10 +49,10 @@ export default function App() {
         </a>
       </div>
       <div>
-        <h1>PIC</h1>
+        <h3>PIC</h3>
         <img 
           src="/test-pic01.jpeg" 
-          alt="测试图片" 
+          alt="test-pic" 
           width="500"
           height="300"
         />
