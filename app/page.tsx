@@ -8,7 +8,7 @@ import { Amplify } from "aws-amplify";
 import outputs from "@/amplify_outputs.json";
 import "@aws-amplify/ui-react/styles.css";
 import Image from 'next/image';
-import testPic from '../test-pic01.jpeg';
+import testPic from '/test-pic01.jpeg';
 
 Amplify.configure(outputs);
 
